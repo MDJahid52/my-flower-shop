@@ -14,6 +14,7 @@ body {
 .banner {
     background: rgba(229, 84, 115, 0.10);
     display: flex;
+    width: auto;
 
 }
 
@@ -126,12 +127,18 @@ body {
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     display: flex;
+    justify-content: space-between;
+}
+
+.hot-deal-text {
+    margin-left: 400px;
 }
 
 .hot-deal-heading {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
+    width: 550px;
 }
 
 .pink {
@@ -143,5 +150,112 @@ body {
     /* text-align: center; */
     font-size: 18px;
     font-weight: 400;
+    width: 550px;
+    text-align: center;
 }
 
+.hot-deal-pic {
+    margin-right: 150px;
+}
+
+.btn-center {
+    /* text-align: center; */
+    margin: 50px;
+    /* position: absolute; */
+    /* top: 50%; */
+    
+}
+
+/* social section */
+
+.social-heading {
+    text-align: center;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.social-description {
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    width: 594px;
+    margin-left: 470px;
+    
+}
+
+.social-images-section {
+        margin: 0px 120px 0px 120px;
+}
+
+.social-pic {
+    width: 280px;
+    height: 320px;
+    padding: 10px;
+    
+}
+
+/* footer section styles */
+
+.footer-heading {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.footer {
+    background-color: black;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    width: 600px;
+    margin-left: 470px;
+}
+
+.copy-right {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+
+.connect {
+    margin: 0px 50px 0px 50px;
+    width: 1380px;
+    height: 450px;
+    background-image: url("../Flower Asset/Rectangle\ 9.png")
+    
+
+}
+
+
+.connect-heading {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-weight: 800;
+    padding-top: 100px;
+    }
+
+.connect-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#connect-data {
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    margin-left: 250px;
+}
